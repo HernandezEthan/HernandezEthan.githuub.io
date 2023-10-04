@@ -1,7 +1,22 @@
 body {
-    background-color: red;
+    background-image: url('erie.jpg');
+    background-size: cover;
 }
 
-#secondpage {
-    background-color: blue;
+#otherpage {
+    background-image: none;
+    background-color: none;
+}
+
+p {
+    width: 10px;
+    text-align: center;
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
